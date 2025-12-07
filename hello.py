@@ -5,3 +5,5 @@ You can write comments on multiple lines by placing the text between the lines o
 """
 
 print("Hello World")
+
+#this demonstrates to new coders how to use the print command
