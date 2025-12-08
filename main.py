@@ -48,14 +48,14 @@ def button(msg,x,y,w,h,ic,ac,action=None):
     textSurf, textRect = text_objects(msg, smallText)
     textRect.center = ( (x+(w/2)), (y+(h/2)) )
     screen_window.blit(textSurf, textRect)
-#Starting Screen
+#Starting Screen  with buttons and graphics
 pygame.font.get_fonts()
 
 def geo_intro():
 
     block_animation = [background_blocks_right() for x in range(50)]
    
-    geo_intro = True
+    
     
     while True:
         #in event of quit
