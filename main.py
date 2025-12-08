@@ -251,6 +251,6 @@ def gameplay():
 #im not gna lie this might not work youtube is teaching me how to do ts pygame stuff^^
 
 ##Progress counter
-
+obs_score = 0
 
 geo_intro()
