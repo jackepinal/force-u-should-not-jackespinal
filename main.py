@@ -33,7 +33,7 @@ def text_objects(text, font):
     textSurface = font.render(text, True, yella)
     return textSurface, textSurface.get_rect()
 
-#stole buttons from racey
+#stole buttons from racey and more
 def button(msg,x,y,w,h,ic,ac,action=None):
     mouse = pygame.mouse.get_pos()
     click = pygame.mouse.get_pressed()
